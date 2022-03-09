@@ -1,0 +1,55 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    margin: 0.5em;
+}
+
+section.game {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+
+button.new-game {
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: #4646ff;
+    color: white;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+button.new-game:hover {
+    border-color: #444444;
+}
+
+button.new-game:active {
+    background-color: #1919ff;
+    border-color: #444444;
+}
+
+
+section.controls {
+    padding: 1em;
+}
+
+table.board {
+    border:1px solid black;
+    border-spacing: 0;
+    text-align: center;
+}
+
+table.board td.space {
+    border:1px solid black;
+    padding: 0.5em;
+    min-width: 2em;
+    min-height: 2em;
+}
+
+section.result {
+    padding: 1em;
+    font-size: 1.5em;
+}
